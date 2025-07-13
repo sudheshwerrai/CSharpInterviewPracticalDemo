@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="Program.cs" />
+    <Compile Remove="ValueVsReferenceTypeDemo.cs" />
   </ItemGroup>
 
 </Project>
