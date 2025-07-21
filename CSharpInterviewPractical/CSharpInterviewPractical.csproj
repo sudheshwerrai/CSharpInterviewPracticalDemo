@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ImplicitAndExplicitConversion.cs" />
     <Compile Remove="NullAndCoalescingOperator.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="ValueVsReferenceTypeDemo.cs" />
