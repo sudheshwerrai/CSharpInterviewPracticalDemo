@@ -15,6 +15,7 @@
     <Compile Remove="ImplicitAndExplicitConversion.cs" />
     <Compile Remove="NullAndCoalescingOperator.cs" />
     <Compile Remove="ObjectDataTypeAndClassObject.cs" />
+    <Compile Remove="ParameterizedConstructor.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="StaticKeyword.cs" />
     <Compile Remove="ValueVsReferenceTypeDemo.cs" />
