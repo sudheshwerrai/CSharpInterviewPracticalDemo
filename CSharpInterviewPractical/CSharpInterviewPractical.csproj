@@ -11,6 +11,7 @@
     <Compile Remove="BoxingAndUnboxing.cs" />
     <Compile Remove="ConstAndReadOnly.cs" />
     <Compile Remove="ConstructorType.cs" />
+    <Compile Remove="DefaultOrParameterlessConstructor.cs" />
     <Compile Remove="ImplicitAndExplicitConversion.cs" />
     <Compile Remove="NullAndCoalescingOperator.cs" />
     <Compile Remove="ObjectDataTypeAndClassObject.cs" />
