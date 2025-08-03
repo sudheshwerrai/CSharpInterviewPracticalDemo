@@ -17,6 +17,7 @@
     <Compile Remove="ObjectDataTypeAndClassObject.cs" />
     <Compile Remove="ParameterizedConstructor.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="StaticConstructor.cs" />
     <Compile Remove="StaticKeyword.cs" />
     <Compile Remove="ValueVsReferenceTypeDemo.cs" />
   </ItemGroup>
