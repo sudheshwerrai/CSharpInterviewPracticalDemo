@@ -1,0 +1,26 @@
+﻿Destructor In C#
+
+1. What is a Destructor in C#?
+A destructor is a special method in a class that is automatically called 
+when the object is about to be destroyed by the Garbage Collector (GC).
+It’s used to release unmanaged resources (files, database connections, etc.)
+before the object is removed from memory.
+
+2. Why use a Destructor?
+C# automatically manages memory for most things, but unmanaged resources 
+(like file handles, network sockets, database connections) need manual 
+cleanup to avoid memory leaks. A destructor is your last chance to clean up 
+these resources.
+
+3. When to use a Destructor? Use it only when:
+You are working with unmanaged resources (file streams, OS handles, 
+database connections, etc.).You want a safety net in case the developer 
+forgot to call Dispose().
+⚠️ Note: Overusing destructors can slow down garbage collection. If possible,
+implement IDisposable instead.
+
+4. How to use a Destructor in C#?
+Syntax: ~ClassName()
+
+No access modifiers, no parameters, and you cannot call it manually.
+Runs automatically before garbage collection destroys the object.
