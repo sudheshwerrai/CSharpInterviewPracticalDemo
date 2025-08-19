@@ -13,6 +13,7 @@
     <Compile Remove="ConstructorType.cs" />
     <Compile Remove="CopyConstructor.cs" />
     <Compile Remove="DefaultOrParameterlessConstructor.cs" />
+    <Compile Remove="Destructor.cs" />
     <Compile Remove="ImplicitAndExplicitConversion.cs" />
     <Compile Remove="NullAndCoalescingOperator.cs" />
     <Compile Remove="ObjectDataTypeAndClassObject.cs" />
