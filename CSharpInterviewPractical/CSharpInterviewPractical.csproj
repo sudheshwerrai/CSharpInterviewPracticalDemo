@@ -14,6 +14,8 @@
     <Compile Remove="CopyConstructor.cs" />
     <Compile Remove="DefaultOrParameterlessConstructor.cs" />
     <Compile Remove="Destructor.cs" />
+    <Compile Remove="DisposeDemo.cs" />
+    <Compile Remove="FinalizeDemo.cs" />
     <Compile Remove="ImplicitAndExplicitConversion.cs" />
     <Compile Remove="NullAndCoalescingOperator.cs" />
     <Compile Remove="ObjectDataTypeAndClassObject.cs" />
