@@ -25,6 +25,7 @@
     <Compile Remove="StaticConstructor.cs" />
     <Compile Remove="StaticKeyword.cs" />
     <Compile Remove="ValueVsReferenceTypeDemo.cs" />
+    <Compile Remove="VarKeyword.cs" />
   </ItemGroup>
 
 </Project>

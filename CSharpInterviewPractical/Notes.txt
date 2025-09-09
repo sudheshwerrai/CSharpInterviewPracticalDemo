@@ -1,4 +1,20 @@
-﻿Destructor In C#
+﻿Dynamic Keyword In C#
+
+1.Introduced in C# 4.0. -Done
+2.Type is decided at runtime. -Done
+3.No compile - time checking, only runtime binding. -Done
+4.Can call members(methods/ properties) not known at compile time. -Done
+5.Throws RuntimeBinderException if the member doesn’t exist. - Done
+6.Similar to `object`, but no explicit casting is needed.-Done
+7. Supports implicit conversions. -Done
+8. Can store null at declaration. - Done
+9. Can be used as a method parameter or return type. - Done
+10. Same variable can hold different types of values. - Done
+11. No IntelliSense support. - Done
+12. Slower performance due to late binding. - Done
+13. Provides flexibility over type safety. - Done
+----------------------------------------------------------------------------------------
+Destructor In C#
 
 1. What is a Destructor in C#?
 A destructor is a special method in a class that is automatically called 
