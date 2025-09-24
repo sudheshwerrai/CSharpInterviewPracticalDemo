@@ -15,6 +15,7 @@
     <Compile Remove="DefaultOrParameterlessConstructor.cs" />
     <Compile Remove="Destructor.cs" />
     <Compile Remove="DisposeDemo.cs" />
+    <Compile Remove="DynamicKeyword.cs" />
     <Compile Remove="FinalizeDemo.cs" />
     <Compile Remove="ImplicitAndExplicitConversion.cs" />
     <Compile Remove="NullAndCoalescingOperator.cs" />

@@ -1,4 +1,30 @@
-﻿Dynamic Keyword In C#
+﻿
+
+
+
+1. is Operator
+Purpose: Checks if an object is compatible with a given type.
+Return type: bool (true or false).
+Safe type checking: It doesn’t throw exception, only returns true/false.
+
+
+2. as Operator
+Purpose: Converts (casts) an object to a given type safely.
+Return type: Returns the object if cast is valid; otherwise null.
+Important: Works only with reference types and nullable types, not with 
+value types (like int, double etc.).
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+Dynamic Keyword In C#
 
 1.Introduced in C# 4.0. -Done
 2.Type is decided at runtime. -Done
