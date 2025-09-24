@@ -30,15 +30,17 @@ namespace IsAndAsOperator
     {
         static void Main()
         {
-            //object number = "123";
-            //if (number is string value)
-            //    Console.WriteLine("True"+ value);
+            //Is Example
+            //object number = 123;
+            //if (number is int newNumber)
+            //    Console.WriteLine("Yes,true"+ newNumber);
             //else
-            //    Console.WriteLine("False");
+            //    Console.WriteLine("No,false");
 
-            //object name = 123;
-            //string newName = name as string;
-            //Console.WriteLine(newName);
+            //As Example
+            //object name = "Sudheshwer";
+            //string userName = name as string;
+            //Console.WriteLine(userName);
 
             #region Realtime example
             //Using is:
@@ -57,10 +59,10 @@ namespace IsAndAsOperator
 
             Employee emp = new Manager { Name = "Disha" };
 
-            Manager manager = emp as Manager;
-            if (manager != null)
+            Developer dev = emp as Developer;
+            if (dev != null)
             {
-                manager.ApproveLeave();
+                dev.WriteCode();
             }
             else
             {
